@@ -1,6 +1,7 @@
 #############################################################
 ###                   DNS Batch Entry                     ###
 ###                Patrick Benoit - 3/18/20               ###
+###                 pbenoitnv@outlook.com                 ###
 ###                                                       ###
 ###  This script will add batch DNS entries into the DNS  ###
 ###  server.  Reverse lookup zones must be created for    ###
