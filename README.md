@@ -7,5 +7,7 @@ This script will add batch DNS entries into the DNS server.  Reverse lookup zone
 *Headder Name Column 2 - IP  (IPv4 address of server)
 
 $list - Path to CSV file
+
 $DNSServer - IP address of DNS server
+
 $DNSZone - DNS Zone "inegomontoya.com"  
