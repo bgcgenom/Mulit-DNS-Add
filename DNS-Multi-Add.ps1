@@ -46,6 +46,9 @@ foreach ($item in $list) {
     Add-DnsServerResourceRecord -computername $DNSServer -ZoneName $DNSZone -A -Name $item.Name -IPv4Address $item.IP -CreatePtr
     }
 
+# Flush DNS Cache
+Clear-DnsClientCache
+
 # Test each forward lookup entry
 Write-host "Testing added DNS forward lookup."
 $forwardfail = ""
